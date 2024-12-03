@@ -4,7 +4,7 @@ session_start(); // เริ่มต้น Session
 // ตรวจสอบว่าผู้ใช้เข้าสู่ระบบหรือไม่
 if (!isset($_SESSION['username'])) {
     // หากไม่ได้เข้าสู่ระบบ ให้เปลี่ยนเส้นทางไปที่หน้าเข้าสู่ระบบ
-    header("Location: login.html");
+    header("Location: index.html");
     exit();
 }
 
